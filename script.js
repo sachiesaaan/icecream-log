@@ -4,7 +4,7 @@ const ALBUM_ID = 'AF1QipPtOEYUJ4-o0FUg6aErVc3D5xvGeB2wLJ2GhHYS';
 
 const AUTH_URL = 'https://accounts.google.com/o/oauth2/v2/auth';
 const TOKEN_URL = 'https://oauth2.googleapis.com/token';
-const REDIRECT_URI = window.location.origin; // Current origin
+const REDIRECT_URI = window.location.href.split('?')[0]; // Current page URL without query parameters
 const SCOPES = 'https://www.googleapis.com/auth/photoslibrary.readonly';
 
 const galleryDiv = document.getElementById('gallery');
