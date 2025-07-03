@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今年の夏アイスギャラリー</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>今年の夏アイスギャラリー</h1>
+        <p id="icecream-count">食べたアイスの数：0個</p>
+    </header>
+    <main>
+        <div id="gallery"></div>
+    </main>
+
+    <div id="photo-modal" class="modal">
+        <span class="close-button">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div id="modal-caption">
+            <p><strong>説明:</strong> <span id="photo-description"></span></p>
+            <p><strong>撮影日時:</strong> <span id="photo-creation-time"></span></p>
+            <p><strong>カメラモデル:</strong> <span id="photo-camera-model"></span></p>
+            <p><strong>画像サイズ:</strong> <span id="photo-dimensions"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
