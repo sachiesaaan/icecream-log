@@ -1,0 +1,42 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and sensitive data
+.env
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.lnk
+$RECYCLE.BIN/
+System Volume Information/
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+
+# Temporary files and logs
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+Session.vim
+Session.vim.bak
+*.bak
+*.swp
+*~
+cron.log
+
+# Windows Zone.Identifier (ダウンロードしたファイルに付与されるセキュリティ情報)
+*Zone.Identifier
+
+# Python generated files
+__pycache__/
+
+# VS Code specific files
+.vscode/
